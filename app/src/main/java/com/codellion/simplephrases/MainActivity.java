@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void phraseBtnClick(View view){
         Button button = (Button) view;
-        //
+
         switch (view.getId()){
             case R.id.doYouEngBtn:
                 Log.i("case1: ", button.getTag().toString());
